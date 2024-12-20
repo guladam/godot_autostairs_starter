@@ -1,0 +1,159 @@
+[gd_scene load_steps=6 format=4 uid="uid://dp7jv2dowlkkn"]
+
+[ext_resource type="Texture2D" uid="uid://4xpywr2ktupe" path="res://assets/platformPack_tilesheet.png" id="1_s7ubt"]
+[ext_resource type="PackedScene" uid="uid://danhw17hngvxa" path="res://stair_step.tscn" id="2_iju1w"]
+[ext_resource type="PackedScene" uid="uid://cct0r8x7as6h4" path="res://player.tscn" id="3_eo1bv"]
+
+[sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_nkqtv"]
+texture = ExtResource("1_s7ubt")
+texture_region_size = Vector2i(64, 64)
+0:0/0 = 0
+0:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+1:0/0 = 0
+1:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+2:0/0 = 0
+2:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+3:0/0 = 0
+3:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+4:0/0 = 0
+5:0/0 = 0
+6:0/0 = 0
+6:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+7:0/0 = 0
+7:0/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+8:0/0 = 0
+9:0/0 = 0
+10:0/0 = 0
+11:0/0 = 0
+0:1/0 = 0
+0:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+1:1/0 = 0
+1:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+2:1/0 = 0
+2:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+3:1/0 = 0
+3:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+4:1/0 = 0
+5:1/0 = 0
+6:1/0 = 0
+6:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+7:1/0 = 0
+7:1/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+8:1/0 = 0
+9:1/0 = 0
+10:1/0 = 0
+11:1/0 = 0
+0:2/0 = 0
+0:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 0, -32, 0)
+1:2/0 = 0
+1:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 0, -32, 0)
+2:2/0 = 0
+2:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 0, -32, 0)
+3:2/0 = 0
+3:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+4:2/0 = 0
+4:2/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+5:2/0 = 0
+6:2/0 = 0
+7:2/0 = 0
+8:2/0 = 0
+9:2/0 = 0
+10:2/0 = 0
+11:2/0 = 0
+0:3/0 = 0
+0:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 0, -32, 0)
+1:3/0 = 0
+1:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 0, -32, 0)
+2:3/0 = 0
+2:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 0, -32, 0)
+3:3/0 = 0
+3:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+4:3/0 = 0
+4:3/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+5:3/0 = 0
+6:3/0 = 0
+7:3/0 = 0
+8:3/0 = 0
+9:3/0 = 0
+10:3/0 = 0
+11:3/0 = 0
+0:4/0 = 0
+1:4/0 = 0
+2:4/0 = 0
+3:4/0 = 0
+3:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+4:4/0 = 0
+4:4/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+5:4/0 = 0
+6:4/0 = 0
+7:4/0 = 0
+8:4/0 = 0
+9:4/0 = 0
+10:4/0 = 0
+11:4/0 = 0
+0:5/0 = 0
+1:5/0 = 0
+2:5/0 = 0
+3:5/0 = 0
+4:5/0 = 0
+4:5/0/physics_layer_0/polygon_0/points = PackedVector2Array(-32, -32, 32, -32, 32, 32, -32, 32)
+5:5/0 = 0
+6:5/0 = 0
+7:5/0 = 0
+8:5/0 = 0
+9:5/0 = 0
+10:5/0 = 0
+11:5/0 = 0
+12:5/0 = 0
+13:5/0 = 0
+5:6/0 = 0
+6:6/0 = 0
+7:6/0 = 0
+8:6/0 = 0
+9:6/0 = 0
+10:6/0 = 0
+11:6/0 = 0
+12:6/0 = 0
+13:6/0 = 0
+
+[sub_resource type="TileSet" id="TileSet_rhm7o"]
+tile_size = Vector2i(64, 64)
+physics_layer_0/collision_layer = 1
+sources/1 = SubResource("TileSetAtlasSource_nkqtv")
+
+[node name="Level" type="Node2D"]
+
+[node name="Level" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAAAAAgAAQADAAEAAAABAAgAAQADAAAAAAACAAgAAQADAAAAAAADAAgAAQADAAAAAAAEAAgAAQAAAAAAAAAFAAgAAQAAAAAAAAAGAAgAAQAAAAAAAAAHAAgAAQAAAAAAAAAIAAgAAQAAAAAAAAAJAAgAAQAAAAAAAAAKAAgAAQAAAAAAAAALAAgAAQAAAAAAAAAMAAgAAQAAAAAAAAANAAgAAQADAAAAAAAOAAgAAQADAAAAAAAPAAgAAQADAAAAAAAQAAgAAQADAAAAAAARAAgAAQADAAEAAAAAAAkAAQADAAEAAAAAAAcAAQADAAEAAAAAAAYAAQADAAEAAAAAAAUAAQADAAEAAAAAAAQAAQADAAEAAAAAAAMAAQADAAEAAAAAAAIAAQADAAEAAAAAAAEAAQADAAEAAAAAAAAAAQADAAEAAAARAAkAAQADAAEAAAARAAcAAQADAAEAAAARAAYAAQADAAEAAAARAAUAAQADAAEAAAARAAQAAQADAAEAAAARAAMAAQADAAEAAAARAAIAAQADAAEAAAARAAEAAQADAAEAAAARAAAAAQADAAEAAAARAAoAAQADAAEAAAAAAAoAAQADAAEAAAABAAkAAQADAAAAAAACAAkAAQADAAAAAAADAAkAAQADAAAAAAAEAAkAAQADAAAAAAAFAAkAAQADAAAAAAAGAAkAAQADAAAAAAAHAAkAAQADAAAAAAAIAAkAAQADAAAAAAAJAAkAAQADAAAAAAAKAAkAAQADAAAAAAALAAkAAQADAAAAAAAMAAkAAQADAAAAAAANAAkAAQADAAAAAAAOAAkAAQADAAAAAAAPAAkAAQADAAAAAAAQAAkAAQADAAAAAAAQAAoAAQADAAAAAAAPAAoAAQADAAAAAAAOAAoAAQADAAAAAAANAAoAAQADAAAAAAAMAAoAAQADAAAAAAALAAoAAQADAAAAAAAKAAoAAQADAAAAAAAJAAoAAQADAAAAAAAIAAoAAQADAAAAAAAHAAoAAQADAAAAAAAGAAoAAQADAAAAAAAFAAoAAQADAAAAAAAEAAoAAQADAAAAAAADAAoAAQADAAAAAAACAAoAAQADAAAAAAABAAoAAQADAAAAAAANAAQAAQAAAAAAAAAMAAQAAQAAAAAAAAALAAQAAQAAAAAAAAAKAAQAAQAAAAAAAAAJAAQAAQAAAAAAAAAIAAQAAQAAAAAAAAAGAAIAAQAEAAIAAAAEAAIAAQAEAAIAAAAJAAEAAQADAAIAAAAOAAcAAQAAAAAAAAAPAAcAAQADAAAAAAAQAAYAAQAAAAAAAAAQAAcAAQADAAAAAAABAAcAAQADAAAAAAACAAcAAQAAAAAAAAADAAUAAQAGAAAAAAAFAAUAAQAGAAAAAAAHAAQAAQAAAAAAAAA=")
+tile_set = SubResource("TileSet_rhm7o")
+
+[node name="StairsLeft" type="Node2D" parent="."]
+
+[node name="StairStep" parent="StairsLeft" instance=ExtResource("2_iju1w")]
+position = Vector2(224, 512)
+
+[node name="StairStep3" parent="StairsLeft" instance=ExtResource("2_iju1w")]
+position = Vector2(96, 448)
+
+[node name="StairsRight" type="Node2D" parent="."]
+
+[node name="StairStep" parent="StairsRight" instance=ExtResource("2_iju1w")]
+position = Vector2(864, 512)
+
+[node name="StairStep2" parent="StairsRight" instance=ExtResource("2_iju1w")]
+position = Vector2(992, 448)
+
+[node name="Player" parent="." instance=ExtResource("3_eo1bv")]
+position = Vector2(368, 400)
+jump_velocity = -650.0
+
+[node name="Background" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="BgColor" type="ColorRect" parent="Background"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.0720831, 0.611953, 0.658623, 1)
